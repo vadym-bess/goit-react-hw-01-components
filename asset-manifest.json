@@ -1,13 +1,13 @@
 {
-  "files": {
-    "main.css": "/react-homework-template/static/css/main.7acaea2f.css",
-    "main.js": "/react-homework-template/static/js/main.07d3183d.js",
-    "index.html": "/react-homework-template/index.html",
-    "main.7acaea2f.css.map": "/react-homework-template/static/css/main.7acaea2f.css.map",
-    "main.07d3183d.js.map": "/react-homework-template/static/js/main.07d3183d.js.map"
-  },
-  "entrypoints": [
-    "static/css/main.7acaea2f.css",
-    "static/js/main.07d3183d.js"
-  ]
+  "main.css": "/goit-react-hw-01-components/static/css/main.6b1773b6.chunk.css",
+  "main.js": "/goit-react-hw-01-components/static/js/main.0d912360.chunk.js",
+  "main.js.map": "/goit-react-hw-01-components/static/js/main.0d912360.chunk.js.map",
+  "static/js/1.7b57e968.chunk.js": "/goit-react-hw-01-components/static/js/1.7b57e968.chunk.js",
+  "static/js/1.7b57e968.chunk.js.map": "/goit-react-hw-01-components/static/js/1.7b57e968.chunk.js.map",
+  "runtime~main.js": "/goit-react-hw-01-components/static/js/runtime~main.843421ef.js",
+  "runtime~main.js.map": "/goit-react-hw-01-components/static/js/runtime~main.843421ef.js.map",
+  "static/css/main.6b1773b6.chunk.css.map": "/goit-react-hw-01-components/static/css/main.6b1773b6.chunk.css.map",
+  "index.html": "/goit-react-hw-01-components/index.html",
+  "precache-manifest.189127adac90a22eddce780036f96321.js": "/goit-react-hw-01-components/precache-manifest.189127adac90a22eddce780036f96321.js",
+  "service-worker.js": "/goit-react-hw-01-components/service-worker.js"
 }
