@@ -24,13 +24,14 @@ li {
 }
 
 table {
-    width: 300px;
+    max-width: 600px;
     border-collapse: collapse;
     border: 1px solid #000;
     border-radius: 5px;
     margin-top: 30px;
     background-color: #fff;
     box-shadow: 0px 0px 20px 5px rgba(0, 0, 0, 0.2);
+    text-align: center
     }
 
 
@@ -64,7 +65,19 @@ td {
     border-right: 1px solid #000;
 }
 
-tr{
-    
+th {
+    font-weight: normal;
+    color: #039;
+    padding: 10px 15px;
+}
+
+td {
+    color: #669;
+    border-top: 1px solid #e8edff;
+    padding: 10px 15px;
+}
+
+tr:nth-child(2n) {
+    background: #0433dc;
 }
 
