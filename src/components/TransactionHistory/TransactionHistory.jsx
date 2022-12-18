@@ -3,7 +3,7 @@ import React from 'react';
 import css from './TransactionHistory.module.css';
 import clsx from "clsx";
 
-export const TransactionHistory = ({ id, items }) => {
+export const TransactionHistory = ({  items }) => {
     return <table className={clsx(css.table)}>
         <thead>
             <tr>
@@ -12,18 +12,19 @@ export const TransactionHistory = ({ id, items }) => {
                 <th>Currency</th>
             </tr>
         </thead>
+        <tbody>
 
-        {items.map(({ type, amount, currency }) => {
-            return <tbody key={id}>
-                <tr>
+        {items.map(({ id, type, amount, currency }) => {
+            return <tr key={id}>
                     <td>{type}</td>
                     <td>{amount}</td>
                     <td>{currency}</td>
                 </tr>
         
-            </tbody>}
+            }
         
-)}
+            )}
+        </tbody>
   </table>
 }
 
