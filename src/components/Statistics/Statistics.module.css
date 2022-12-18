@@ -23,3 +23,56 @@ li {
     margin: 0;
     padding: 0;
 }
+
+.item__wrapper{
+    display: flex;
+    justify-content: center;
+    
+}
+
+.item:last-child {
+    border-bottom-right-radius: 5px;
+}
+
+.item:first-child {
+    border-bottom-left-radius: 5px;
+}
+
+.statistics{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 300px;
+    height: 100%;
+    margin-top: 30px;
+    border: 1px solid transparent;
+    border-bottom: none;
+    border-radius: 5px;
+    box-shadow: 0px 0px 20px 5px rgba(0, 0, 0, 0.2);
+    background-color: #fff;
+}
+
+.title{
+    padding: 30px;
+}
+
+.label{
+    color: #fff;
+    font-weight: 500;
+}
+
+.percentage{
+    color: #fff;
+    font-weight: 500;
+}
+
+.item{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 60px;
+    gap: 10px;
+    padding: 10px;
+}
