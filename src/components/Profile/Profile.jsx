@@ -20,15 +20,15 @@ export const Profile = ({ username, tag, location, avatar, stats: { followers, v
         <ul className={clsx(css.stats)}>
             <li className={clsx(css.stats__item)}>
                 <span className={clsx(css.stats__headers)}>Followers</span>
-                    <span className={clsx(css.numbers)}>{followers ? followers : 0}</span>
+                    <span className={clsx(css.numbers)}>{followers}</span>
             </li>
             <li className={clsx(css.stats__item)}>
                 <span className={clsx(css.stats__headers)}>Views</span>
-                <span className={clsx(css.numbers)}>{views ? views : 0}</span>
+                <span className={clsx(css.numbers)}>{views}</span>
             </li>
             <li className={clsx(css.stats__item)}>
                 <span className={clsx(css.stats__headers)}>Likes</span>
-                <span className={clsx(css.numbers)}>{likes ? likes : 0}</span>
+                <span className={clsx(css.numbers)}>{likes}</span>
             </li>
         </ul>
     </div>);
