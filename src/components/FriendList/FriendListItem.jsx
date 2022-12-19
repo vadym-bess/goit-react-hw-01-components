@@ -1,7 +1,7 @@
 import React from 'react';
 import css from './FriendList.module.css';
 import clsx from "clsx";
-
+import PropTypes from 'prop-types';
 
 
 export const FriendListItem = ({ isOnline, avatar, name }) => {
@@ -10,4 +10,10 @@ export const FriendListItem = ({ isOnline, avatar, name }) => {
             <img className = { clsx(css.avatar) } src = { avatar } alt = "User avatar"/>
             <p className={clsx(css.name)}>{name}</p>
     </li>
+}
+
+FriendListItem.propTypes = {
+    isOnline: PropTypes.bool.isRequired,
+    avatar: PropTypes.string.isRequired,
+    name: PropTypes.string.isRequired
 }

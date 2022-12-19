@@ -16,7 +16,7 @@ export const FriendList = ({ friends }) => {
 }
 
 FriendList.propTypes = {
-    item: PropTypes.exect({
+    friends: PropTypes.exact({
         id: PropTypes.string.isRequired,
         avatar: PropTypes.string,
         name: PropTypes.string.isRequired,
